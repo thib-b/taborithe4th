@@ -5,8 +5,8 @@ window.onload = function onLoad() {
 
   function progress() {
     var now = new Date();
-    var start = new Date(now.getFullYear(), 0, 1);  // Start of this year
-    var end = new Date(now.getFullYear() + 1, 0, 1);  // End of this year
+    var start = new Date("2023-02-20);  // date of coitus
+    var end = new Date("2023-11-27");  // date of big squeeze
     var done = (now-start) / (end-start);
     var percentStr = (100.0 * done).toString();
     if (done < 0.1) {
