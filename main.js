@@ -14,7 +14,7 @@ window.onload = function onLoad() {
     } else {
       percentStr = percentStr.slice(0, 10);
     }
-    document.getElementById("percent").innerHTML = percentStr + "%";
+    document.getElementById("percent").innerHTML = percentStr + "% complete.";
     return done;
   }
 
