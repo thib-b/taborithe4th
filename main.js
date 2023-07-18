@@ -5,7 +5,7 @@ window.onload = function onLoad() {
 
   function progress() {
     var now = new Date();
-    var start = new Date("2023-02-20);  // date of coitus
+    var start = new Date("2023-02-20");  // date of coitus
     var end = new Date("2023-11-27");  // date of big squeeze
     var done = (now-start) / (end-start);
     var percentStr = (100.0 * done).toString();
